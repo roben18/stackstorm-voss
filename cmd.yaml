@@ -1,0 +1,17 @@
+---
+name: "cmd"
+runner_type: "python-script"
+description: "run list of VOSS commands on a remote switch."
+enabled: true
+entry_point: "cmd.py"
+parameters:
+    ipaddress:
+        type: "string"
+        description: "IP address of the VOSS switch."
+        required: true
+        position: 0
+    cmd:
+        type: "string"
+        description: "List of VOSS CLI commands."
+        required: true
+        position: 1
