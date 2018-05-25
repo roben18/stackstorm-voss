@@ -1,0 +1,12 @@
+---
+username:
+    description: "Login username"
+    type: "string"
+    required: true
+    default: "rwa"
+password:
+    description: "Login password"
+    type: "string"
+    required: true
+    default: "rwa"
+

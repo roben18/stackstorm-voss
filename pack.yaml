@@ -1,0 +1,9 @@
+---
+ref: voss
+name: VOSS
+description: Actions for managing Extreme Networks VOSS devices
+keywords:
+    - voss
+version: 0.0.2
+author: Extreme Networks
+email: support@extremenetworks.com
